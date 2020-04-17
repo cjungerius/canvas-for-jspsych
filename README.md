@@ -1,7 +1,7 @@
 # Canvas plugins for jsPsych
 
 Edits of the existing jspsych plugins html-keyboard-response and same-different-html which draw a canvas item and will draw on it using a provided function.
-based on the great work of [Josh de Leeuw](http://github.com/jodeleeuw)
+based on the great work by [Josh de Leeuw](http://github.com/jodeleeuw)
 
 ## Installation
 
@@ -14,7 +14,7 @@ Copy the required files into the same folder as the jsPsych study's HTML file an
 
 ## Usage
 
-These plugins match the plugins they are based on as much as possible; the biggest different is that instead of providing them with a stimulus/stimuli to display, they require drawing(s), which are functions that act on a canvas item `c`. note that the function will still generally need to set the correct context itself, using a line like `let ctx = c.getContext("2d").`
+These plugins match the plugins they are based on as much as possible; the biggest difference is that instead of a stimulus/stimuli, they require drawing(s), which are functions that act on a canvas item `c`. note that the function will still generally need to set the correct context itself, using a line like `let ctx = c.getContext("2d").`
 
 ## Example
 
@@ -27,7 +27,7 @@ function draw_rect(c) {
 	}
 ```
 
-We can now use this function in to define an instance of our plugin:
+We can now use this function in an instance of our plugin:
 
 ```javascript
 let timeline = [];
@@ -42,7 +42,7 @@ timeline.push(mytrial)
 
 ```
 
-same-different-canvas works similar, but requires an array of two functions acting on c:
+same-different-canvas works similarly, but requires an array of two functions acting on c:
 ```javascript
 
 let difftrial = {
