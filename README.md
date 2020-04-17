@@ -1,7 +1,7 @@
 # Canvas plugins for jsPsych
 
 Edits of the existing jspsych plugins html-keyboard-response and same-different-html which draw a canvas item and will draw on it using a provided function.
-based on the great work of [Josh de Leeuw](github.com/jodeleeuw)
+based on the great work of [Josh de Leeuw](http://github.com/jodeleeuw)
 
 ## Installation
 
@@ -18,7 +18,7 @@ These plugins match the plugins they are based on as much as possible; the bigge
 
 ## Example
 
-[We can draw many things on a canvas.](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shape) Below is a function that draws a rectangle, for example:
+[We can draw many things on a canvas.](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes) Below is a function that draws a rectangle, for example:
 
 ```javascript
 function draw_rect(c) {
@@ -59,5 +59,5 @@ timeline.push(difftrial)
 
 ## Questions
 
-You can contact me for any questions via my [Twitter](twitter.com/chrisjungerius)
+You can contact me for any questions via my [Twitter](http://twitter.com/chrisjungerius)
 
