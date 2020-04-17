@@ -14,7 +14,7 @@ Copy the required files into the same folder as the jsPsych study's HTML file an
 
 ## Usage
 
-These plugins match the plugins they are based on as much as possible; the biggest different is that instead of providing them with a stimulus/stimuli to display, they require drawing(s), which are functions that act on a canvas item `c`. note that the function will still generally need to set the correct context itself, using a line like `let ctx = c.getContext("2d").
+These plugins match the plugins they are based on as much as possible; the biggest different is that instead of providing them with a stimulus/stimuli to display, they require drawing(s), which are functions that act on a canvas item `c`. note that the function will still generally need to set the correct context itself, using a line like `let ctx = c.getContext("2d").`
 
 ## Example
 
