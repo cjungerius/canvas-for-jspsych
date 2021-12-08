@@ -1,3 +1,5 @@
+NOTICE: [(improved versions of) these plugins were added to JsPsych in v6.2](https://github.com/jspsych/jsPsych/issues/645), please update your jsPsych if you wish to use them for your project.
+
 # Canvas plugins for jsPsych
 
 Edits of the existing jspsych plugins html-keyboard-response and same-different-html which draw a canvas item and will draw on it using a provided function.
